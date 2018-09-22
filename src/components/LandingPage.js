@@ -1,4 +1,5 @@
 import React from 'react';
+import { withRouter } from 'react-router-dom'
 
 const LandingPage = (props) => {
 
@@ -6,6 +7,7 @@ const LandingPage = (props) => {
     e.preventDefault();
     let userName = e.target.name.value;
     props.onNameSubmission(userName);
+    props.history.push('/game');
   }
 
   return (
@@ -19,4 +21,4 @@ const LandingPage = (props) => {
   );
 }
 
-export default LandingPage;
+export default withRouter(LandingPage);

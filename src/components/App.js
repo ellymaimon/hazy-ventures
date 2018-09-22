@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, withRouter } from 'react-router-dom';
 import { Dialogue } from './Dialogue';
 import LandingPage from './LandingPage';
 import Game from './Game';
@@ -37,4 +37,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default withRouter(App);
