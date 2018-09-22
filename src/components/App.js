@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import LandingPage from './LandingPage';
-import { Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Game from './Game'
 
 class App extends Component {
   constructor(props) {
@@ -28,12 +29,11 @@ class App extends Component {
   render() {
     return (
       <div>
-      <Switch>
-        <Route exact path='/'
-               render={()=><LandingPage onNameSubmission={this.handleNameSubmission} /> } />
-        <Route path='/game' render={()=><Game onNameSubmission={this.handleNameSubmission} /> } />
+      <Router>
+        
+        <Route path='/game' component={Game} />
         <Route path='/gameover' />
-      </Switch>
+      </Router>
       </div>
     );
   }
