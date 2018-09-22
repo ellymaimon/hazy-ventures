@@ -4,7 +4,6 @@ export const Dialogue = props => {
     return (
       <div>
         <p>Dialogue Component</p>
-        {props.text }
       </div>
     );
 }
