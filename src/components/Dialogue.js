@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Dialogue = props => {
+export const Dialogue = (props) => {
     return (
       <div>
         <p>Dialogue Component</p>
