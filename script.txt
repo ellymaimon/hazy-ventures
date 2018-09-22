@@ -15,11 +15,26 @@ text: "Great. It's 9:59 so let's get going. How would you like to get downtown?"
 options: Tesla, Scooter, The Bus.
 
 node: tesla
-text: "Bummer. You hit traffic and are running late."
-options: Go back to drinking, Hit the streets in search of the tech scene's hottest new startup, Go to the meeting late.
+text: "No no, you're still drunk and autopilot isn't that advanced. You have to take a lyft."
+options: Lyft
 
 node: scooter
-text:
+text: "Sounds reckless. You don't have a helmet but you already have amnesia, so I calculate the risk to be low."
+options: This is fun, ditch the meeting and keep riding, Scoot as fast as possible, Be cautious
 
 node: bus
-text: "Smart choice. Public transportation is very efficient"
+text: "Smart choice. Public transportation is very efficient, you made it to the meeting on time"
+options: Great idea! Invest, This product is terrible, belittle the founders
+
+node: invest
+text: "Hmm, you must still be drunk. The share prices are in a freefall. You're bankrupt."
+options: Become a hobo, Become a budtender, meteorologist,
+
+node: hobo-ending
+text: "Great choice, Portland's temperate climate is comfortable for tent-living year round in one of Portland's many beautiful city parks. Don't mind the rain."
+
+node: bud-ending
+text: "You spend the rest of your days in a smokey haze, but the weed's effect on short-term memory ain't got ya down."
+
+node: weather-ending
+text: "Wow. Turns out Meteorology is your true calling. Venture capital was slowly killing you inside. Enjoy years of fullfillment"
