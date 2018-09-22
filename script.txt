@@ -1,0 +1,25 @@
+-What is your name?
+-Welcome, _. Confused about why you're here? You're probably feeling pretty hazy. You're a successful venture capitalist with amnesia. I'm here to remind you of the details of your life as you navigate the day ahead.
+-You live in PDX, its {date}. You're on the hunt for your next venture.
+
+(Wait? How do you know all of this?)
+
+-I'm H@Z3, an artificially intelligent bot you acquired for an undisclosed sum. Don't worry about the details.
+
+(Ummm. Alright, I guess. So what am I supposed to do next?)
+
+-Great question. Well, right now you're at Belmont Station. You polished off a whole keg after your last conference call and are just coming to. We could: 1. keep drinking. 2. You have a 10 am meeting that you could show up for.
+
+node: meeting
+text: "Great. It's 9:59 so let's get going. How would you like to get downtown?"
+options: Tesla, Scooter, The Bus.
+
+node: tesla
+text: "Bummer. You hit traffic and are running late."
+options: Go back to drinking, Hit the streets in search of the tech scene's hottest new startup, Go to the meeting late.
+
+node: scooter
+text:
+
+node: bus
+text: "Smart choice. Public transportation is very efficient"
